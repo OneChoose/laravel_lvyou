@@ -1,0 +1,57 @@
+
+.rili_form{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 20px 25px 5px 25px;
+    display: none;
+    position:relative;
+}
+.rili_form label{
+    text-align: right;
+    width: 60px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.rili_form .c{
+    width: 100px;
+    display: inline-block;
+}
+.rili_form .b{
+     width: 150px;
+     display: inline-block;
+ }
+.date_but{
+    position: absolute;
+    right: 60px;
+    bottom: 5px;
+}
+
+ul,ul li{  padding: 0;  margin: 0; list-style: none;}
+.errMsg {  color: #f96161;  }
+#kalendar{ border:#ccc solid 1px; margin:15px auto;border-collapse: collapse}
+#kalendar td,#kalendar th{ border:1px #ccc solid; padding:5px;  vertical-align: top;}
+#kalendar td{ height:88px; width: 114px; cursor: pointer; }
+#kalendar th{ text-align:center; background:#f8f8f8;}
+.att_day_false{ color:#ccc;}
+.att_day_true{ color:#444; font-weight:bold;}
+#kalendar td p{ height:20px; line-height:20px; font-size:12px; text-align:right; margin: 0;}
+#kalendar td a{ width:91%; height:50px; margin:0 2% 5px 2%; display:block; line-height:50px; text-decoration:none;  cursor:pointer;}
+#kalendar td a:hover{ color:#2d2d2d;}
+#kalendar td .data_null{ color:#999;  text-align: center;}
+#kalendar td .data_null input{  width: 100%;  border: 0;  background: 0;  text-align: center;  }
+#kalendar td .data_normal input{  width: 100%;  border: 0;  background: 0;  text-align: center;  }
+#kalendar td .data_normal{  color:#333; text-align: center; color: #f96161; font-size: 24px;}
+#kalendar td a div{ height:24px; line-height:22px;}
+#kalendar td a .data_txt{font-weight:bold;}
+
+#date_ch{ height: 58px; border-radius:5px; text-align:center;}
+#date_ch .d_c_name{ font-weight:400; font-size:13px;line-height:40px;}
+#date_ch .d_c_form select{ width:65px; height:26px; line-height:26px;color:#333;  border-radius:3px; margin:0 5px;}
+
+.laydate_body .laydate_box{  margin-top: 10px;  border: 1px solid #C6C6C6;  }
+.laydate_body .laydate_top{padding: 0;}
+.laydate_body .laydate_bottom{  border: 0;}
+.laydate_body .laydate_top{ width: 100%; border: 0;}
+.laydate_body .laydate_table{width: 100% !important; border: 0;}

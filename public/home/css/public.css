@@ -1,0 +1,206 @@
+body,
+html {
+	font-family: "黑体";
+	color: #595757;
+	background: #efeeed;
+    font: 12px/1.5 arial,\5b8b\4f53,georgia,verdana,helvetica,sans-serif;
+}
+.d-none{
+	display: none;
+}
+
+a{
+	cursor: pointer;
+}
+.mt5{
+	margin-top: 6px;
+}
+.mt10{
+	margin-top: 15px;
+}
+.mt55{ margin-top: 55px;}
+.mr-none{
+	margin-right: 0 !important;
+}
+.b-none{
+	border: 0 !important;
+}
+.line{
+	width:86%;
+	height: 1px;
+	background: #afb0b0;
+	position: relative;
+	top: 25px;
+	margin: 0 auto;
+}
+@media (min-width:1440px)  {
+	.container{
+		width: 1270px;
+	}
+}
+@media (min-width:1490px)  {
+	.container{
+		width: 1460px;
+	}
+}
+
+.paging-dome{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #fff;
+}
+.logo>span{
+	display: none;
+}
+.logo>span.current{
+	display: block;
+}
+.logo-tow{
+	position: relative;
+	bottom: 5px;
+}
+
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	padding: 20px;
+	height: 215px;
+	background: #898989;
+	position: relative;
+}
+
+.ft-logo{
+	top: 66px;
+	left: 66px;
+	}
+.ft-nav{
+	width: 526px;
+	margin: 0 auto;
+	color: #fff;
+}
+.ft-nav a{
+	color: #fff;
+	padding:0px 10px;
+}
+.share {
+	position: absolute;
+	right: 65px;
+}
+.share>a{
+	color: #fff;
+	display: block;
+}
+.share>a:nth-child(1){
+	position: absolute;
+	right: 45px;
+}
+.share>a:first-child{
+	position: absolute;
+	right: 45px;
+}
+.share>a:nth-child(2){
+	position: absolute;
+	right: 0px;	
+}
+.share>a:first-child+a{
+	position: absolute;
+	right: 0px;
+}
+.share>span{
+	color: #fff;
+	display: block;
+	margin-top: 61px;
+}
+
+.BMap_cpyCtrl {
+	display: none !important;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover{
+	background: #f7f7f7;
+}
+.pagination>li>a, .pagination>li>span{
+	border: 0;
+	padding: 0 12px;
+}
+.pagination>li>a, .pagination>li>span{
+	background: #f7f7f7;
+	color: #767676;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background: #f7f7f7;
+	color: #191311;
+}
+
+.footer.current{
+	background: #0e2335 !important;
+}
+.lv-message.current{
+	background:rgba(14,35,53,0.8);
+}
+.ct-message.current{
+	background:rgba(10,15,22,1);
+}
+.nav-track.current{
+	background:rgba(14,35,53,1);
+}
+.navbox.current{
+	background:rgba(14,35,53,1);
+}
+
+.ct-demo{
+	display: none;
+}
+.work-demo{
+	display: none;
+}
+.ct-demo.current,.work-demo.current{
+	display: block;
+}
+
+.login-demo{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.login-demo>form{
+	width: 60%;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.login-demo>form .form-group{
+	
+}
+.login-demo>form .form-group>label{
+	font-size: 14px;
+	font-weight: 400;
+	width: 46px;
+	text-align: right;
+	margin-right: 16px;
+}
+.login-demo>form .form-group>input[type=text]{
+	height: 26px;
+	line-height: 26px;
+	padding-left: 12px;
+	width: 200px;
+}
+.login-demo>form .form-group>input[type=password]{
+	height: 26px;
+	line-height: 26px;
+	padding-left: 12px;
+	width: 200px;
+}
+.login-demo>form .form-group>input[type=submit]{
+	padding:3px 14px;
+	background: #0e2335;
+	color: #fff;
+	position: relative;
+	left: 65px;
+}
+
+
+
+
